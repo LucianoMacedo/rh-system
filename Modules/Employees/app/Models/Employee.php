@@ -13,7 +13,14 @@ class Employee extends Model
     /**
      * The attributes that are mass assignable.
      */
-    protected $fillable = [];
+    protected $fillable = [
+        'name',
+        'email',
+        'cpf',
+        'position',
+        'salary',
+        'admission_date'
+    ];
 
     // protected static function newFactory(): EmployeeFactory
     // {

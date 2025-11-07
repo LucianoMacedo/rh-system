@@ -1,0 +1,18 @@
+/vendor
+/node_modules
+.env
+.env.*
+/storage/*.key
+/public/storage
+/storage/logs/*.log
+/storage/framework/*
+/bootstrap/cache/*.php
+
+# IDEs e SO
+.idea
+.vscode
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+db_data/
